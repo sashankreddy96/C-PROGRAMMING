@@ -19,8 +19,7 @@ int main()
             }
         }
     }
-    printf("
-Sorted array is: ");
+    printf("Sorted array is: ");
     for (i = 0; i < n; i++)
         printf("%d ", a[i]);
     return 0;
