@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main()
 {
     int a[100], n, i, min, max;
@@ -12,12 +13,10 @@ int main()
     {
         if (min > a[i])
             min = a[i];
-        if (max < a[i])
+      else if (max < a[i])
             max = a[i];
     }
-    printf("Minimum value is = %d
-", min);
-    printf("Maximum value is = %d
-", max);
+    printf("Minimum value is = %d", min);
+    printf("Maximum value is = %d", max);
     return 0;
 }
